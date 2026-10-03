@@ -1,0 +1,28 @@
+# Rasa NLU Pipeline Configuration
+# Smart India Hackathon 2025 — Language Agnostic Chatbot
+
+version: "3.1"
+
+language: en
+
+# NLU pipeline — processes text to extract intents and entities
+pipeline:
+  - name: WhitespaceTokenizer        # Splits text into tokens by whitespace
+  - name: RegexFeaturizer            # Extracts features using regex patterns
+  - name: LexicalSyntacticFeaturizer # Adds syntactic features
+  - name: CountVectorsFeaturizer     # Converts text to bag-of-words vectors
+  - name: CountVectorsFeaturizer     # Character n-gram features
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier             # Dual Intent and Entity Transformer
+    epochs: 100
+    constrain_similarities: true
+  - name: EntitySynonymMapper        # Maps synonyms to canonical values
+  - name: ResponseSelector           # For FAQ responses
+    epochs: 100
+
+# Dialogue policies (minimal — this is mostly NLU only)
+policies:
+  - name: MemoizationPolicy          # Memorizes exact conversation paths
+  - name: RulePolicy                 # Handles rule-based responses

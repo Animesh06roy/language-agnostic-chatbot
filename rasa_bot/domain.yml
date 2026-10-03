@@ -1,0 +1,99 @@
+# Rasa Domain — defines intents, entities, slots, and responses
+# Smart India Hackathon 2025
+
+version: "3.1"
+
+intents:
+  # Greetings
+  - greet
+  # Admissions
+  - ask_admission_process
+  - ask_admission_deadline
+  - ask_admission_eligibility
+  - ask_admission_documents
+  - ask_admission_status
+  # Scholarships
+  - ask_scholarship_available
+  - ask_scholarship_merit
+  - ask_scholarship_amount
+  - ask_scholarship_apply
+  # Hostel
+  - ask_hostel_available
+  - ask_hostel_fees
+  - ask_hostel_rules
+  - ask_hostel_apply
+  - ask_hostel_facilities
+  # Attendance
+  - ask_attendance_required
+  - ask_attendance_shortage
+  - ask_attendance_condonation
+  - ask_attendance_check
+  # Exams
+  - ask_exam_schedule
+  - ask_exam_hall_ticket
+  - ask_exam_revaluation
+  - ask_exam_result
+  - ask_exam_backlog
+  - ask_exam_materials
+  # Library
+  - ask_library_timing
+  - ask_library_books
+  - ask_library_membership
+  - ask_library_ebooks
+  # Fees
+  - ask_fee_structure
+  - ask_fee_payment
+  - ask_fee_deadline
+  - ask_fee_receipt
+  - ask_fee_installment
+  # Leave
+  - ask_leave_apply
+  - ask_leave_medical
+  - ask_leave_casual
+  # Placements
+  - ask_placement_process
+  - ask_placement_eligibility
+  - ask_placement_companies
+  - ask_placement_package
+  - ask_placement_preparation
+  # Faculty
+  - ask_faculty_contact
+  - ask_faculty_office_hours
+  - ask_faculty_hod
+  # Canteen
+  - ask_canteen_timing
+  - ask_canteen_menu
+  # Sports
+  - ask_sports_facilities
+  - ask_sports_tryouts
+  # General
+  - ask_college_timing
+  - ask_principal_contact
+  - ask_wifi_access
+  - ask_tc_bonafide
+  - ask_internship
+  - ask_anti_ragging
+
+entities:
+  - subject       # e.g. "computer science", "mathematics"
+  - semester      # e.g. "3rd", "5th"
+
+slots:
+  subject:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: subject
+  semester:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: semester
+
+responses:
+  utter_default:
+    - text: "I'm sorry, I don't have information on that. Please contact admin@college.edu"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

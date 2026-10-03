@@ -1,0 +1,55 @@
+intent,category,question,answer
+ask_admission_process,Admissions,How do I apply for admission?,Admissions are done through a centralized entrance exam. Fill the online application form appear for the exam and attend the counselling session. Merit list is published on the portal.
+ask_admission_deadline,Admissions,When is the admission deadline?,The admission deadline for this academic year is July 31st. Late applications are not accepted after this date.
+ask_admission_eligibility,Admissions,Am I eligible for admission?,To be eligible you must have passed 10+2 with at least 60% marks in Physics Chemistry and Mathematics.
+ask_admission_documents,Admissions,What documents are needed for admission?,Required documents: 10th marksheet 12th marksheet entrance exam scorecard birth certificate caste certificate (if applicable) and 4 passport-size photographs.
+ask_admission_status,Admissions,How to check my admission status?,Check your admission status by logging into the student portal at portal.college.edu and entering your application number.
+ask_scholarship_available,Scholarships,What scholarships are available?,"We offer Merit Scholarship, Need-based Scholarship, SC/ST Scholarship, and National Talent Scholarship. Apply through the scholarship portal before August 15th."
+ask_scholarship_merit,Scholarships,How do I get a merit scholarship?,Merit Scholarship is awarded to students who score above 85% in their semester exams. It covers 50% of tuition fees.
+ask_scholarship_amount,Scholarships,How much is the scholarship?,"Scholarship amounts vary: Merit Scholarship covers ₹25,000/year, Need-based covers ₹15,000/year, and Government scholarships follow state rules."
+ask_scholarship_apply,Scholarships,How to apply for scholarship?,Apply for scholarships through the college portal under the Scholarships section. Attach income certificate marksheets and a recommendation letter from HOD.
+ask_hostel_available,Hostel,Is hostel available?,The college provides separate hostels for boys and girls. Capacity is 500 for boys and 300 for girls. Apply early as seats are limited.
+ask_hostel_fees,Hostel,What are the hostel fees?,"Hostel fees are ₹40,000 per year including meals. Room-only accommodation is ₹25,000 per year."
+ask_hostel_rules,Hostel,What are the hostel rules?,Hostel gates close at 10 PM. No visitors after 8 PM. Alcohol and smoking are strictly prohibited. Quiet hours are 10 PM to 6 AM.
+ask_hostel_apply,Hostel,How to apply for hostel?,Submit the hostel application form to the Hostel Warden's Office by July 15th. Preference is given to outstation students.
+ask_hostel_facilities,Hostel,What facilities does the hostel have?,"Hostel facilities include Wi-Fi, laundry, a common room with TV, 24-hour water supply, and a mess with home-cooked meals."
+ask_attendance_required,Attendance,How much attendance is required?,A minimum of 75% attendance is required in each subject to be eligible for semester examinations.
+ask_attendance_shortage,Attendance,What if I have low attendance?,If your attendance falls below 75% you will receive a warning letter. Below 65% you will be detained and cannot sit for exams.
+ask_attendance_condonation,Attendance,Can I get attendance condonation?,Attendance condonation is granted only for medical emergencies with valid hospital documents. Apply to the HOD within 7 days of rejoining.
+ask_attendance_check,Attendance,How to check my attendance?,Check your attendance on the student portal under My Attendance. It is updated every week by faculty.
+ask_exam_schedule,Examinations,When are the exams?,Semester exams are held in November (odd semester) and April (even semester). The exam schedule is published 3 weeks before exams on the notice board.
+ask_exam_hall_ticket,Examinations,How to get hall ticket?,Hall tickets are available on the student portal 10 days before exams. You must show your hall ticket and college ID to enter the exam hall.
+ask_exam_revaluation,Examinations,How to apply for revaluation?,Revaluation requests can be submitted within 15 days after result declaration. The fee is ₹300 per subject. Apply at the Examination Office.
+ask_exam_result,Examinations,When will results be announced?,Results are declared within 45 days after the last exam. Check results on the official college portal under Results.
+ask_exam_backlog,Examinations,How to clear backlog?,Supplementary exams for backlog subjects are held 2 months after main results. Register through the exam portal and pay ₹500 per subject.
+ask_exam_materials,Examinations,What can I bring to exam?,You are allowed to carry only a pen pencil and approved scientific calculator. Mobile phones and smartwatches are strictly prohibited.
+ask_library_timing,Library,When is the library open?,The library is open Monday to Saturday from 8 AM to 8 PM. It is closed on Sundays and public holidays.
+ask_library_books,Library,How to borrow books?,Students can borrow up to 3 books for 14 days. A fine of ₹2 per day is charged for late returns.
+ask_library_membership,Library,How to get library membership?,Library membership is automatically given to all enrolled students. Use your student ID card to borrow books.
+ask_library_ebooks,Library,Are there ebooks available?,"The library provides access to NPTEL, IEEE Xplore, and Springer e-books. Log in with your college credentials on the library website."
+ask_fee_structure,Fees,What is the fee structure?,"Annual tuition fee: ₹80,000. Exam fee: ₹3,000 per semester. Lab fee: ₹5,000 per year. Development fee: ₹2,000 per year."
+ask_fee_payment,Fees,How to pay fees?,"Fees can be paid online through the college portal using UPI, Net Banking, or Credit/Debit cards. You can also pay at the accounts office by DD."
+ask_fee_deadline,Fees,When is fee due?,Fee payment deadline for the current semester is August 31st. A fine of ₹100 per day is charged after the deadline.
+ask_fee_receipt,Fees,How to get fee receipt?,Fee receipts are available on the student portal under Payments. Download the PDF receipt for your records.
+ask_fee_installment,Fees,Can I pay fees in installments?,Fee installment facility is available for students in financial need. Submit an installment request to the Accounts Office with parent income proof.
+ask_leave_apply,Leave,How to apply for leave?,Apply for leave through the student portal under Leave Application. Medical leave requires a doctor's certificate. Apply before the leave date when possible.
+ask_leave_medical,Leave,What is the medical leave policy?,Medical leave is granted with a valid medical certificate. Submit the certificate within 3 days of rejoining. Extended medical leave (>7 days) requires HOD approval.
+ask_leave_casual,Leave,How to get casual leave?,Casual leave of up to 2 days per month is allowed. Apply through the portal and inform your class teacher in advance.
+ask_placement_process,Placements,How does placement work?,Placement drives are held from October to February. Register on the placement portal attend pre-placement talks and appear for written tests and interviews.
+ask_placement_eligibility,Placements,Am I eligible for placements?,To be eligible for placements you need a minimum 6.0 CGPA and no active backlogs. Some companies require 7.0+ CGPA.
+ask_placement_companies,Placements,Which companies come for recruitment?,"Top recruiters include TCS, Infosys, Wipro, Cognizant, Accenture, Amazon, Microsoft, and many startups. 85% of eligible students get placed."
+ask_placement_package,Placements,What is the average package?,Average package is ₹6.5 LPA. Highest package last year was ₹24 LPA from a product-based company. Median is ₹5.2 LPA.
+ask_placement_preparation,Placements,How to prepare for placements?,Prepare with aptitude tests coding challenges and mock interviews. The Training and Placement cell runs workshops every Saturday at 10 AM.
+ask_faculty_contact,Faculty,How to contact faculty?,Faculty contact details are listed on the college website under Faculty. You can also contact faculty during office hours (9 AM to 5 PM on working days).
+ask_faculty_office_hours,Faculty,When is faculty available?,Faculty are available for student consultation from 11 AM to 12 PM and 2 PM to 3 PM on Monday Wednesday and Friday.
+ask_faculty_hod,Faculty,Who is the HOD?,The HOD of CSE is Dr. Rajesh Kumar (rajesh@college.edu). For ECE contact Dr. Priya Sharma. For Mechanical contact Dr. Vikram Singh.
+ask_canteen_timing,Canteen,When is canteen open?,The canteen is open from 8 AM to 6 PM on weekdays and 9 AM to 2 PM on Saturdays. It is closed on Sundays.
+ask_canteen_menu,Canteen,What food is available?,"The canteen serves breakfast (idli, dosa, upma), lunch (rice, roti, dal), and snacks (samosa, tea, coffee). A full meal costs ₹50."
+ask_sports_facilities,Sports,What sports facilities are available?,"Sports facilities include a cricket ground, football field, basketball court, badminton hall, table tennis room, and a gym. All are free for enrolled students."
+ask_sports_tryouts,Sports,How to join sports team?,College sports team tryouts are held in the first week of August. Check the notice board for specific timings for each sport.
+ask_college_timing,General,What time does college start?,College hours are 8:30 AM to 4:30 PM Monday to Saturday. The college is closed on Sundays and government holidays.
+ask_principal_contact,General,How to contact the principal?,The Principal's office can be reached at principal@college.edu or by phone at +91-80-12345678. Office hours are 10 AM to 4 PM.
+ask_wifi_access,General,How to connect to college wifi?,Wi-Fi is available throughout the campus. Connect to CollegeNet and use your student ID and date of birth as password.
+ask_tc_bonafide,General,How to get transfer certificate?,Transfer Certificates and Bonafide Certificates are issued by the admin office. Submit a written request and collect within 5 working days.
+ask_internship,General,How to do internship?,Internship registrations are open from January to March. You can pursue internships during summer vacations (May-June). Get approval from your HOD before joining.
+ask_anti_ragging,General,What to do if I face ragging?,"Ragging is strictly prohibited. Report any incidents to the Anti-Ragging Committee at antiragging@college.edu or call the helpline 1800-180-5522."

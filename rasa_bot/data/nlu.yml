@@ -1,0 +1,452 @@
+# Rasa NLU Training Data
+# Smart India Hackathon 2025 — Education FAQ Chatbot
+# Each intent has multiple example phrases for robust training
+
+version: "3.1"
+
+nlu:
+
+  # ── GREETINGS ──────────────────────────────────────────────────────────────
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good afternoon
+      - good evening
+      - namaste
+      - thanks
+      - thank you
+
+  # ── ADMISSIONS ─────────────────────────────────────────────────────────────
+  - intent: ask_admission_process
+    examples: |
+      - How do I apply for admission?
+      - What is the admission process?
+      - How to get enrolled in the college?
+      - Tell me about the admission procedure
+      - I want to take admission
+      - How to enroll in the university?
+      - What is the process for joining?
+      - I want to apply for a seat
+      - How do I get admitted?
+
+  - intent: ask_admission_deadline
+    examples: |
+      - When is the admission deadline?
+      - What is the last date for application?
+      - When does the admission form close?
+      - What is the last date to apply?
+      - Admission deadline for this year
+      - When should I submit the form?
+
+  - intent: ask_admission_eligibility
+    examples: |
+      - Am I eligible for admission?
+      - What are the eligibility criteria?
+      - What marks do I need to get admission?
+      - What is the minimum percentage required?
+      - Eligibility for BTech admission
+      - What qualifications do I need?
+
+  - intent: ask_admission_documents
+    examples: |
+      - What documents are needed for admission?
+      - List of documents required
+      - What certificates should I bring?
+      - Documents required for enrollment
+      - Which certificates are needed?
+
+  - intent: ask_admission_status
+    examples: |
+      - How to check my admission status?
+      - Where can I see if I got admitted?
+      - What is my application status?
+      - How to track my admission?
+      - Is my admission confirmed?
+
+  # ── SCHOLARSHIPS ───────────────────────────────────────────────────────────
+  - intent: ask_scholarship_available
+    examples: |
+      - What scholarships are available?
+      - Tell me about scholarships
+      - Does the college offer any scholarships?
+      - What financial aid is available?
+      - Are there any free seats?
+      - Scholarship options for students
+
+  - intent: ask_scholarship_merit
+    examples: |
+      - How do I get a merit scholarship?
+      - What is the merit scholarship?
+      - Merit scholarship criteria
+      - Scholarship for top students
+      - I scored well can I get scholarship?
+
+  - intent: ask_scholarship_amount
+    examples: |
+      - How much is the scholarship?
+      - What is the scholarship amount?
+      - How much money will I get?
+      - Scholarship value
+      - How much fee waiver do I get?
+
+  - intent: ask_scholarship_apply
+    examples: |
+      - How to apply for scholarship?
+      - Scholarship application process
+      - Where to submit scholarship form?
+      - How to get scholarship?
+      - Process to apply for financial aid
+
+  # ── HOSTEL ─────────────────────────────────────────────────────────────────
+  - intent: ask_hostel_available
+    examples: |
+      - Is hostel available?
+      - Does the college have a hostel?
+      - I need accommodation
+      - Where can I stay near college?
+      - Is there a dormitory?
+      - Can I stay on campus?
+
+  - intent: ask_hostel_fees
+    examples: |
+      - What are the hostel fees?
+      - How much is the hostel?
+      - Hostel fee per year
+      - Cost of staying in hostel
+      - How much does accommodation cost?
+      - What is the room rent?
+
+  - intent: ask_hostel_rules
+    examples: |
+      - What are the hostel rules?
+      - When does hostel gate close?
+      - Hostel regulations
+      - Hostel timing
+      - Rules for hostel students
+      - Can we go out at night from hostel?
+
+  - intent: ask_hostel_apply
+    examples: |
+      - How to apply for hostel?
+      - Hostel application process
+      - How to get a room in hostel?
+      - When to apply for hostel?
+      - Hostel allotment process
+
+  - intent: ask_hostel_facilities
+    examples: |
+      - What facilities does the hostel have?
+      - Is there wifi in hostel?
+      - Hostel amenities
+      - What is provided in the hostel?
+      - Does hostel have AC rooms?
+
+  # ── ATTENDANCE ─────────────────────────────────────────────────────────────
+  - intent: ask_attendance_required
+    examples: |
+      - How much attendance is required?
+      - What is the minimum attendance?
+      - Attendance percentage needed
+      - How many classes should I attend?
+      - What is the attendance rule?
+
+  - intent: ask_attendance_shortage
+    examples: |
+      - What if I have low attendance?
+      - My attendance is below 75
+      - I have attendance shortage
+      - Short attendance problem
+      - What happens if attendance is less?
+
+  - intent: ask_attendance_condonation
+    examples: |
+      - Can I get attendance condonation?
+      - How to get attendance relaxation?
+      - Attendance condonation for medical
+      - Medical leave attendance excuse
+      - Can doctor certificate help attendance?
+
+  - intent: ask_attendance_check
+    examples: |
+      - How to check my attendance?
+      - Where can I see my attendance?
+      - How do I know my attendance percentage?
+      - Check attendance online
+
+  # ── EXAMINATIONS ───────────────────────────────────────────────────────────
+  - intent: ask_exam_schedule
+    examples: |
+      - When are the exams?
+      - Exam schedule this semester
+      - When do semester exams start?
+      - Examination timetable
+      - When are the final exams?
+      - Exam dates
+
+  - intent: ask_exam_hall_ticket
+    examples: |
+      - How to get hall ticket?
+      - Where is my admit card?
+      - Hall ticket download
+      - I need my exam hall ticket
+      - How to download admit card?
+
+  - intent: ask_exam_revaluation
+    examples: |
+      - How to apply for revaluation?
+      - I want to recheck my paper
+      - Revaluation fee and process
+      - Can I get my paper rechecked?
+      - Recorrection of exam paper
+
+  - intent: ask_exam_result
+    examples: |
+      - When will results be announced?
+      - How to check exam results?
+      - Where are my marks?
+      - Results out?
+      - When will I get my scorecard?
+
+  - intent: ask_exam_backlog
+    examples: |
+      - How to clear backlog?
+      - I have arrears how to clear?
+      - Supplementary exam process
+      - Failed in exam what to do?
+      - Backlog exam registration
+
+  - intent: ask_exam_materials
+    examples: |
+      - What can I bring to exam?
+      - Are calculators allowed?
+      - Can I use phone in exam?
+      - What is allowed in exam hall?
+      - Permitted items in examination
+
+  # ── LIBRARY ────────────────────────────────────────────────────────────────
+  - intent: ask_library_timing
+    examples: |
+      - When is library open?
+      - Library timing
+      - Library hours
+      - Is library open on Sunday?
+      - What time does library close?
+
+  - intent: ask_library_books
+    examples: |
+      - How to borrow books from library?
+      - How many books can I take?
+      - Library book borrowing process
+      - Can I take books home?
+      - Library book limit
+
+  - intent: ask_library_membership
+    examples: |
+      - How to get library membership?
+      - Library card issue
+      - Can I use the library?
+      - How to join library?
+
+  - intent: ask_library_ebooks
+    examples: |
+      - Are there ebooks available?
+      - Digital library access
+      - Online books for students
+      - How to access IEEE papers?
+      - E-learning resources
+
+  # ── FEES ───────────────────────────────────────────────────────────────────
+  - intent: ask_fee_structure
+    examples: |
+      - What is the fee structure?
+      - How much is the tuition fee?
+      - Total fees for BTech
+      - Annual fees
+      - What are the college charges?
+
+  - intent: ask_fee_payment
+    examples: |
+      - How to pay fees?
+      - Fee payment methods
+      - Online fee payment
+      - Can I pay fees by UPI?
+      - Where to pay college fees?
+
+  - intent: ask_fee_deadline
+    examples: |
+      - When is fee due?
+      - Fee payment last date
+      - Deadline for paying fees
+      - When to pay this semester fees?
+
+  - intent: ask_fee_receipt
+    examples: |
+      - How to get fee receipt?
+      - Fee payment receipt download
+      - Where is my payment receipt?
+      - Fee acknowledgment
+
+  - intent: ask_fee_installment
+    examples: |
+      - Can I pay fees in installments?
+      - Fee installment facility
+      - I cannot pay full fee at once
+      - Part payment of fees
+      - Fee EMI option
+
+  # ── LEAVE ──────────────────────────────────────────────────────────────────
+  - intent: ask_leave_apply
+    examples: |
+      - How to apply for leave?
+      - Leave application process
+      - I need to take leave
+      - How to take leave from college?
+
+  - intent: ask_leave_medical
+    examples: |
+      - Medical leave process
+      - I am sick can I get leave?
+      - Doctor certificate for leave
+      - How many days medical leave allowed?
+
+  - intent: ask_leave_casual
+    examples: |
+      - How to get casual leave?
+      - Can I take casual leave?
+      - How many casual leaves per month?
+
+  # ── PLACEMENTS ─────────────────────────────────────────────────────────────
+  - intent: ask_placement_process
+    examples: |
+      - How does placement work?
+      - Campus recruitment process
+      - How to get placed?
+      - Tell me about placement
+      - When do companies visit?
+
+  - intent: ask_placement_eligibility
+    examples: |
+      - Am I eligible for placements?
+      - What CGPA is needed for placement?
+      - Placement eligibility criteria
+      - Can I sit for placement with backlog?
+
+  - intent: ask_placement_companies
+    examples: |
+      - Which companies come for recruitment?
+      - Top companies that visit campus
+      - Companies that hire from college
+      - Who are the recruiters?
+
+  - intent: ask_placement_package
+    examples: |
+      - What is the average package?
+      - How much salary do students get?
+      - CTC offered in placements
+      - Highest placement package
+      - Average salary package
+
+  - intent: ask_placement_preparation
+    examples: |
+      - How to prepare for placements?
+      - Placement preparation tips
+      - What skills do I need for jobs?
+      - Coding interview preparation
+
+  # ── FACULTY ────────────────────────────────────────────────────────────────
+  - intent: ask_faculty_contact
+    examples: |
+      - How to contact faculty?
+      - Professor contact details
+      - Teacher email address
+      - How to reach a professor?
+
+  - intent: ask_faculty_office_hours
+    examples: |
+      - When is faculty available?
+      - Faculty consultation hours
+      - When can I meet the professor?
+      - Teacher office hours
+
+  - intent: ask_faculty_hod
+    examples: |
+      - Who is the HOD?
+      - Head of department contact
+      - Department head details
+      - Who leads the CSE department?
+
+  # ── CANTEEN ────────────────────────────────────────────────────────────────
+  - intent: ask_canteen_timing
+    examples: |
+      - When is canteen open?
+      - Canteen timing
+      - What time does canteen open?
+      - Is there a cafeteria?
+
+  - intent: ask_canteen_menu
+    examples: |
+      - What food is available in canteen?
+      - Canteen menu
+      - What does the canteen serve?
+      - Food options at canteen
+
+  # ── SPORTS ─────────────────────────────────────────────────────────────────
+  - intent: ask_sports_facilities
+    examples: |
+      - What sports facilities are available?
+      - Is there a gym?
+      - Does college have a cricket ground?
+      - Sports amenities
+
+  - intent: ask_sports_tryouts
+    examples: |
+      - How to join sports team?
+      - Team selection trials
+      - When are tryouts?
+      - How to get into college cricket team?
+
+  # ── GENERAL ────────────────────────────────────────────────────────────────
+  - intent: ask_college_timing
+    examples: |
+      - What time does college start?
+      - College hours
+      - When does college open?
+      - What time do classes begin?
+
+  - intent: ask_principal_contact
+    examples: |
+      - How to contact the principal?
+      - Principal office number
+      - Principal email
+      - Who is the principal?
+
+  - intent: ask_wifi_access
+    examples: |
+      - How to connect to college wifi?
+      - Internet on campus
+      - College wifi password
+      - Is there wifi in college?
+
+  - intent: ask_tc_bonafide
+    examples: |
+      - How to get transfer certificate?
+      - I need a bonafide certificate
+      - TC application process
+      - How to get study certificate?
+
+  - intent: ask_internship
+    examples: |
+      - How to do internship?
+      - Internship opportunities
+      - Summer internship details
+      - How to apply for internship?
+
+  - intent: ask_anti_ragging
+    examples: |
+      - I faced ragging what to do?
+      - Anti ragging helpline
+      - How to report ragging?
+      - Ragging complaint process

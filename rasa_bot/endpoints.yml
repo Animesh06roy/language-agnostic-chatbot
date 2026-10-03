@@ -1,0 +1,6 @@
+# Rasa Endpoints Configuration
+# Minimal — no external databases or action servers needed
+
+# Uncomment if you add custom actions:
+# action_endpoint:
+#   url: "http://localhost:5055/webhook"

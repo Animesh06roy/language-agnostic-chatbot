@@ -1,0 +1,33 @@
+# ─── Language Agnostic AI Chatbot — Backend Requirements ───────────────────
+# Smart India Hackathon 2025 — Problem Statement 25104
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Python version: 3.10+
+
+# ── Django & REST Framework ──────────────────────────────────────────────────
+Django==4.2.13                  # Web framework
+djangorestframework==3.15.1     # REST API support
+django-cors-headers==4.3.1      # Allow React frontend on port 3000
+
+# ── Language Detection ────────────────────────────────────────────────────────
+langdetect==1.0.9               # Google's language-detection library port
+
+# ── Translation ───────────────────────────────────────────────────────────────
+deep-translator==1.11.4         # Google Translate + IndicTrans routing
+
+# ── HTTP client (for calling Rasa server) ────────────────────────────────────
+requests==2.31.0
+
+# ── Environment variables (.env loading) ─────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── PDF generation (for project documentation) ───────────────────────────────
+reportlab==4.1.0
+
+# ── Rasa (install separately — large dependency) ─────────────────────────────
+# Run:  pip install rasa
+# Note: Rasa requires Python 3.10 and has many dependencies.
+# The Django backend has a fallback keyword classifier if Rasa is not running.
+# See README.md for Rasa setup instructions.
